@@ -1,0 +1,29 @@
+2021-06-20 21:09:09.228 [Thread-2] ERROR site.ycsb.db.arangodb.ArangoDBClient - Failed to create database: ycsb with ex: com.arangodb.ArangoDBException: Response: 409, Error: 1207 - duplicate database name 'ycsb'
+2021-06-20 21:09:09.369 [Thread-2] ERROR site.ycsb.db.arangodb.ArangoDBClient - Failed to create collection: usertable with ex: com.arangodb.ArangoDBException: Response: 409, Error: 1207 - duplicate name
+2021-06-20 21:09:09.369 [Thread-2] INFO  site.ycsb.db.arangodb.ArangoDBClient - ArangoDB client connection created to 192.168.20.187:8529
+2021-06-20 21:09:09.371 [Thread-2] INFO  site.ycsb.db.arangodb.ArangoDBClient - Arango Configuration: dropDBBeforeRun: false; address: 192.168.20.187:8529; databaseName: ycsb; waitForSync: false; transactionUpdate: false;
+2021-06-20 21:12:36.029 [Thread-3] INFO  site.ycsb.db.arangodb.ArangoDBClient - Local cleaned up.
+[OVERALL], RunTime(ms), 207400
+[OVERALL], Throughput(ops/sec), 2410.800385728062
+[TOTAL_GCS_Copy], Count, 4516
+[TOTAL_GC_TIME_Copy], Time(ms), 2724
+[TOTAL_GC_TIME_%_Copy], Time(%), 1.313404050144648
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 4516
+[TOTAL_GC_TIME], Time(ms), 2724
+[TOTAL_GC_TIME_%], Time(%), 1.313404050144648
+[CLEANUP], Operations, 3
+[CLEANUP], AverageLatency(us), 1790.6666666666667
+[CLEANUP], MinLatency(us), 2
+[CLEANUP], MaxLatency(us), 5331
+[CLEANUP], 95thPercentileLatency(us), 5331
+[CLEANUP], 99thPercentileLatency(us), 5331
+[INSERT], Operations, 500000
+[INSERT], AverageLatency(us), 1234.420014
+[INSERT], MinLatency(us), 582
+[INSERT], MaxLatency(us), 1023999
+[INSERT], 95thPercentileLatency(us), 1758
+[INSERT], 99thPercentileLatency(us), 3715
+[INSERT], Return=OK, 500000

@@ -1,0 +1,36 @@
+2021-06-20 21:34:16.056 [Thread-284] ERROR site.ycsb.db.arangodb.ArangoDBClient - Failed to create database: ycsb with ex: com.arangodb.ArangoDBException: Response: 409, Error: 1207 - duplicate database name 'ycsb'
+2021-06-20 21:34:16.069 [Thread-284] ERROR site.ycsb.db.arangodb.ArangoDBClient - Failed to create collection: usertable with ex: com.arangodb.ArangoDBException: Response: 409, Error: 1207 - duplicate name
+2021-06-20 21:34:16.070 [Thread-284] INFO  site.ycsb.db.arangodb.ArangoDBClient - ArangoDB client connection created to 192.168.20.187:8529
+2021-06-20 21:34:16.072 [Thread-284] INFO  site.ycsb.db.arangodb.ArangoDBClient - Arango Configuration: dropDBBeforeRun: false; address: 192.168.20.187:8529; databaseName: ycsb; waitForSync: false; transactionUpdate: false;
+2021-06-20 21:34:31.331 [Thread-170] WARN  c.a.internal.http.HttpCommunication - Could not connect to host[addr=192.168.20.187,port=8529]. Try connecting to host[addr=192.168.20.187,port=8529]
+2021-06-20 21:34:31.435 [Thread-415] WARN  c.a.internal.http.HttpCommunication - Could not connect to host[addr=192.168.20.187,port=8529]. Try connecting to host[addr=192.168.20.187,port=8529]
+2021-06-20 21:34:31.445 [Thread-426] WARN  c.a.internal.http.HttpCommunication - Could not connect to host[addr=192.168.20.187,port=8529]. Try connecting to host[addr=192.168.20.187,port=8529]
+2021-06-20 21:34:31.642 [Thread-153] WARN  c.a.internal.http.HttpCommunication - Could not connect to host[addr=192.168.20.187,port=8529]. Try connecting to host[addr=192.168.20.187,port=8529]
+2021-06-20 21:34:31.659 [Thread-364] WARN  c.a.internal.http.HttpCommunication - Could not connect to host[addr=192.168.20.187,port=8529]. Try connecting to host[addr=192.168.20.187,port=8529]
+2021-06-20 21:34:31.682 [Thread-198] WARN  c.a.internal.http.HttpCommunication - Could not connect to host[addr=192.168.20.187,port=8529]. Try connecting to host[addr=192.168.20.187,port=8529]
+2021-06-20 21:34:32.787 [Thread-94] WARN  c.a.internal.http.HttpCommunication - Could not connect to host[addr=192.168.20.187,port=8529]. Try connecting to host[addr=192.168.20.187,port=8529]
+2021-06-20 21:39:50.583 [Thread-214] INFO  site.ycsb.db.arangodb.ArangoDBClient - Local cleaned up.
+[OVERALL], RunTime(ms), 335289
+[OVERALL], Throughput(ops/sec), 1491.2508313723386
+[TOTAL_GCS_Copy], Count, 384
+[TOTAL_GC_TIME_Copy], Time(ms), 14127
+[TOTAL_GC_TIME_%_Copy], Time(%), 4.213380098959405
+[TOTAL_GCS_MarkSweepCompact], Count, 6
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 1314
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.3919007184846506
+[TOTAL_GCs], Count, 390
+[TOTAL_GC_TIME], Time(ms), 15441
+[TOTAL_GC_TIME_%], Time(%), 4.605280817444056
+[CLEANUP], Operations, 500
+[CLEANUP], AverageLatency(us), 12.198
+[CLEANUP], MinLatency(us), 1
+[CLEANUP], MaxLatency(us), 3737
+[CLEANUP], 95thPercentileLatency(us), 5
+[CLEANUP], 99thPercentileLatency(us), 49
+[INSERT], Operations, 500000
+[INSERT], AverageLatency(us), 322358.572358
+[INSERT], MinLatency(us), 923
+[INSERT], MaxLatency(us), 8335359
+[INSERT], 95thPercentileLatency(us), 1014271
+[INSERT], 99thPercentileLatency(us), 1801215
+[INSERT], Return=OK, 500000
