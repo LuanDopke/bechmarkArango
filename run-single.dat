@@ -1,0 +1,36 @@
+2021-06-20 15:26:47.480 [Thread-2] ERROR site.ycsb.db.arangodb.ArangoDBClient - Failed to create database: ycsb with ex: com.arangodb.ArangoDBException: Response: 409, Error: 1207 - duplicate database name 'ycsb'
+2021-06-20 15:26:47.529 [Thread-2] ERROR site.ycsb.db.arangodb.ArangoDBClient - Failed to create collection: usertable with ex: com.arangodb.ArangoDBException: Response: 409, Error: 1207 - duplicate name
+2021-06-20 15:26:47.529 [Thread-2] INFO  site.ycsb.db.arangodb.ArangoDBClient - ArangoDB client connection created to 192.168.20.187:8529
+2021-06-20 15:26:47.530 [Thread-2] INFO  site.ycsb.db.arangodb.ArangoDBClient - Arango Configuration: dropDBBeforeRun: false; address: 192.168.20.187:8529; databaseName: ycsb; waitForSync: false; transactionUpdate: false;
+2021-06-20 15:35:48.710 [Thread-2] INFO  site.ycsb.db.arangodb.ArangoDBClient - Local cleaned up.
+[OVERALL], RunTime(ms), 541780
+[OVERALL], Throughput(ops/sec), 922.8838273838089
+[TOTAL_GCS_Copy], Count, 3881
+[TOTAL_GC_TIME_Copy], Time(ms), 1511
+[TOTAL_GC_TIME_%_Copy], Time(%), 0.27889549263538704
+[TOTAL_GCS_MarkSweepCompact], Count, 0
+[TOTAL_GC_TIME_MarkSweepCompact], Time(ms), 0
+[TOTAL_GC_TIME_%_MarkSweepCompact], Time(%), 0.0
+[TOTAL_GCs], Count, 3881
+[TOTAL_GC_TIME], Time(ms), 1511
+[TOTAL_GC_TIME_%], Time(%), 0.27889549263538704
+[READ], Operations, 249782
+[READ], AverageLatency(us), 1033.0233043213682
+[READ], MinLatency(us), 574
+[READ], MaxLatency(us), 17775
+[READ], 95thPercentileLatency(us), 1152
+[READ], 99thPercentileLatency(us), 1477
+[READ], Return=OK, 249782
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 6570.0
+[CLEANUP], MinLatency(us), 6568
+[CLEANUP], MaxLatency(us), 6571
+[CLEANUP], 95thPercentileLatency(us), 6571
+[CLEANUP], 99thPercentileLatency(us), 6571
+[UPDATE], Operations, 250218
+[UPDATE], AverageLatency(us), 1123.7372411257384
+[UPDATE], MinLatency(us), 688
+[UPDATE], MaxLatency(us), 154367
+[UPDATE], 95thPercentileLatency(us), 1217
+[UPDATE], 99thPercentileLatency(us), 1871
+[UPDATE], Return=OK, 250218
